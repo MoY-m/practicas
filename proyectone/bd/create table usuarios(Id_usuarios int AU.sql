@@ -1,0 +1,1 @@
+create table usuarios(Id_usuarios int AUTO_INCREMENT NOT NULL,Nombre varchar (55) NOT NULL,Apellidos VARCHAR (55) NOT NULL,Direccion VARCHAR (55) NOT NULL,Telefono VARCHAR (55) NOT NULL,Email VARCHAR (55) NOT NULL,Fechanac DATE NOT NULL ,PRIMARY KEY(Id_usuarios))ENGINE = INNODB;
